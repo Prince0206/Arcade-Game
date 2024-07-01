@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight Arena</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <script src="js\Gamemanager.js"></script>
+    <script src="js\Player.js"></script>
+    <script src="js\Enemy.js"></script>
+</head>
+<body>
+    <div class="header">
+       <p>Play the Greatest RPG ever to be made!</p>
+       <h2>Choose your Character!</h2>
+    </div>
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="images\Heroes\Warrior.jpeg" alt="Warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Warriors have higher health and stamina, however their 
+                strength also makes them slower and clumsier.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="images\Heroes\Rogue.jpeg" alt="Rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>Rogue are fast and have high stamina and speed which makes up
+                 for thier lack in strength and health.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="images\Heroes\Mage.jpeg" alt="Mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Mages are glass canon which puts all thier effort into 
+                spells. This means if you fast enough you could defeat her</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="images\Heroes\Hunter.jpeg" alt="Hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>Hunters are well rounded figthers that focus on evening out 
+                their skills. No strength or weaknesses.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="actions">
+        
+    </div>
+
+    <div class="arena">
+        
+    </div>
+
+    <div class="enemy">
+        
+    </div>
+
+
+</body>
+</html>
+
